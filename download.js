@@ -5,6 +5,13 @@ function anvilgui(){
         return;
     }
 }
+function anvilgui(){
+    if(confirm("Are you sure that you want to open the Netty download page [MavenRepo]?") == true){
+        window.open("https://repo1.maven.org/maven2/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar");
+    }else{
+        return;
+    }
+}
 function sysomand(){
     if(confirm("Are you sure that you want to open the SysomanderAPI download page [SpigotMC.ORG]?") == true){
         window.open("https://www.spigotmc.org/resources/sysomand-api.99863/");
